@@ -1,47 +1,36 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #fff0f5;
-    color: #75445b;
-    font-family: Arial;
-}
-
 .jumbotron {
     background-color: pink;
-    font-size: 30px;
-    color: #c2185b;
+    font-size: 50px;
+    color: gray;
     padding: 50px;
-    text-align: center;1
+    text-align: center;
 }
 
 nav {
-    background-color: #f48fb1;
+    background-color: lightblue;
     padding: 10px;
 }
 
 nav a {
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 125px;
     text-decoration: none;
-    color: white;
+    color: green;
 }
 
 nav a:hover {
-    color: #8e3156;
+    font-weight: bold;
 }
 
 nav li {
     display: inline;
-    margin-right: 60px;
+    margin-right: 125px;
     list-style-type: none;
 }
 
 .card {
-    background-color: #fffafa;
-    box-shadow: 0 4px 8px pink;
-    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
 }
@@ -61,46 +50,59 @@ main {
     width: 100%;
     max-height: 300px;
     object-fit: cover;
+    object-position: center;
 }
 
 .profile {
-    text-align: center;
-    background-color: #ffe4ec;
+  text-align: center;
 }
 
 .profile img {
-    width: 100%;
-    max-height: 200px;
-    object-fit: cover;
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  object-position: center;
 }
 
 aside {
-    float: right;
-    width: 25%;
-    padding-left: 20px;
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 footer {
-    color: white;
-    padding: 20px;
-    background-color: #c2185b;
-    text-align: center;
-    font-weight: bold;
+  color: green;
+  padding: 20px;
+  background-color: yellowgreen;
+  text-align: center;
+  font-weight: bold;
 }
 
+/* FOOTER */
+
 .footer {
-    background-color: #c2185b;
-    color: white;
-    padding: 20px;
+    background-color: #1e293b;
+    color: #94a3b8;
+    padding: 20px 0;
     width: 100%;
     clear: both;
 }
 
 .footer-content {
+    padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer-content p {
+    font-size: 0.9rem;
 }
 
 .footer-links {
@@ -110,10 +112,11 @@ footer {
 }
 
 .footer-links li a {
-    color: white;
+    color: #94a3b8;
     text-decoration: none;
+    font-size: 0.9rem;
 }
 
 .footer-links li a:hover {
-    color: pink;
+    color: #3b82f6;
 }
